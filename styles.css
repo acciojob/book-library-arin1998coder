@@ -1,1 +1,67 @@
 /*  your css code here. If applicable */
+  body{
+          background:  #f8f8f8;
+         
+        }
+        h1{
+            text-align: center;
+        }
+
+        .book{
+            padding-left: 20px;
+        }
+
+        .book-library{
+            background-color:  #ffffff;
+            width: 95%;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            padding-bottom: 10px;
+        }
+       .book-img{
+        margin-top: 35px;
+        display: flex;
+        justify-content: center;
+       }
+
+       img{
+        width: 300px;
+        height: 400px;
+       }
+
+      
+       button{
+        border-radius: 11px;
+        width: 98%;
+        height: 40px;
+        background-color: #2ecc71;
+        color: white;
+        font-weight: 600;
+     
+        cursor: pointer;
+        padding-right: 20px;
+       }
+
+       button:hover{
+        color: white;
+        background-color: rgb(6, 207, 19);
+       }
+
+       .book-description p:first-child {
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: -10px;
+        }
+
+        .author {
+     /* Styles for the second <p> tag */
+  font-weight: 400;
+  font-size: 16px;
+  color:#777777
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+ 
+}
